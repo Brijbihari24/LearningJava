@@ -1,6 +1,7 @@
 package com.company;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
 
@@ -124,7 +125,52 @@ public class Main {
 //        2.Assignment operators
 //        3.Logical operators
 //        4.Comparison operators
-//
+
+//       1.Arithmetic oper
+//          +, -, /, %
+
+       int num = 1 ;
+       int num2 = 3;
+       int sum = num + num2;
+       System.out.println(sum);
+//       like this we can use arthimatic operators for addition, subtractio and etc.
+
+//       Maths
+       // 5, 6
+
+       System.out.println(Math.max(5,9));
+       System.out.println(Math.min(5,9));
+
+//       random fxn
+
+       System.out.println((int)(Math.random()*100));
+
+//       How to take INPUT
+//       Scanner sc = new Scanner(System.in);
+//       System.out.println("What is your age: ");
+//       int youraAge = sc.nextInt();
+//       System.out.println(youraAge);
+
+//       for string approch is little different
+//       Scanner sca = new Scanner(System.in);
+//       System.out.println("What is your Name: ");
+//       String yourName = sca.next();
+//       System.out.println(yourName);
+
+//       for whole sentence
+        Scanner sca = new Scanner(System.in);
+        System.out.println("What is your Name: ");
+        String yourName = sca.nextLine();
+        System.out.println(yourName);
+
+//        Comparison operator
+
+//        a == b
+//        a != b
+//        a > b
+//        a < b
+//        a >= b
+//        a =< b
 
 
     }
