@@ -158,10 +158,10 @@ public class Main {
 //       System.out.println(yourName);
 
 //       for whole sentence
-        Scanner sca = new Scanner(System.in);
-        System.out.println("What is your Name: ");
-        String yourName = sca.nextLine();
-        System.out.println(yourName);
+//        Scanner sca = new Scanner(System.in);
+//        System.out.println("What is your Name: ");
+//        String yourName = sca.nextLine();
+//        System.out.println(yourName);
 
 //        Comparison operator
 
@@ -171,6 +171,42 @@ public class Main {
 //        a < b
 //        a >= b
 //        a =< b
+
+//        urinary operator
+//        we can write a + 1 as a++
+//        and it has two types a++(itmeans at first it will have original value than add)
+//        and ++a (it means it will add the value to the variable at the starting and then exec)
+
+//        conditional statement
+        int personAge = 15;
+        if(personAge > 18)
+            System.out.println("YOU CAN VOTE");
+        else
+            System.out.println("CHAL BHAAG YAHA SEH");
+
+//        LOGICAL OPERATOR
+//        && And, || or, ! not
+
+//        Conditional statement - Switch
+
+        int day = 5;
+        switch (day){
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            default:
+                System.out.println("Weekend !!");
+        }
+
+//        LOOPS
+        for (int i = 100; i >= 1 ; i--) {
+            System.out.println(i);
+
+        }
+
 
 
     }
