@@ -202,12 +202,54 @@ public class Main {
         }
 
 //        LOOPS
-        for (int i = 100; i >= 1 ; i--) {
-            System.out.println(i);
+//        for (int i = 100; i >= 1 ; i--) {
+//            System.out.println(i);
+//        }
 
+//        while loop
+//          int j = 100;
+//        while(j >= 1) {
+//            System.out.println(j);
+//            j = j - 1;
+//        }
+
+//        Do while
+//        int k = 100;
+//        do{
+//            System.out.println(k);
+//            k = k-1;
+//        }while (k >= 1);
+
+//        Assignment -
+//        Scanner src = new Scanner(System.in);
+//        int number;
+//        do{
+//            System.out.println("Pls enter any no.");
+//            number = src.nextInt();
+//            System.out.print(" Here is your number : ");
+//            System.out.println(number);
+//
+//        }while (number >= 0);
+//
+//        System.out.println("THE END BIDU");
+
+//        Break and continue -
+
+        int pk = 0;
+        while (true){
+            if (pk == 3){
+                pk = pk + 1;
+            }
+            System.out.println(pk);
+            pk = pk + 1 ;
+            if(pk > 5){
+                break;
+            }
         }
 
-
+//        Eexception Handling (try-catch)
 
     }
 }
+
+
